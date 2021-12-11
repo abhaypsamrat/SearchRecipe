@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px;
+}
+
+.app_form {
+  margin-top: 10px;
+}
+.app_input {
+  padding: 6px 16px;
+  margin-bottom: 7px;
+  min-width: 200px;
+  max-width: 100vh;
+  font-size: 15px;
+  background-color: rgb(247, 243, 247);
+  color: rgb(156, 114, 35);
+}
+.app_submit {
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 10px;
+  background-color: rgb(100, 224, 89);
+  border: 1.5px solid;
+  color: white;
+}
